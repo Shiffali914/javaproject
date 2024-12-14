@@ -27,6 +27,9 @@ public class Calculator2 {
                 case 4:
                     obj.modulus();
                     break;
+                    case 5:
+                        obj.division();
+                        break;
                 default:
                     System.out.println("Invalid choice");
             }
@@ -76,6 +79,16 @@ public class Calculator2 {
             int mod = num1 % num2;
             System.out.println("The modulus is: " + mod);
 
+        }
+        public void division(){
+        int num1, num2;
+        Scanner sc = new Scanner(System.in);
+            System.out.println("Enter first number: ");
+            num1 = sc.nextInt();
+            System.out.println("Enter second number: ");
+            num2 = sc.nextInt();
+            int div = num1 / num2;
+            System.out.println("The division is: " + div);
         }
 
 
