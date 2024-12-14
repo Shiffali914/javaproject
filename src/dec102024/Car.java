@@ -8,7 +8,6 @@ public class Car {
     String model;
     double price;
     int year;
-
     public void accelerate() {
 
         System.out.println("Car is accelerating");
@@ -17,6 +16,7 @@ public class Car {
     public void brake() {
         System.out.println("Car is braking");
     }
+
 
     public void start() {
         System.out.println("Car is ready to start");

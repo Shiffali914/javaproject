@@ -12,6 +12,7 @@ public class Calculator2 {
         do {
             Calculator2 obj = new Calculator2();
             System.out.println("Enter your choice: ");
+
             int input = sc.nextInt();
             switch (input) {
 
