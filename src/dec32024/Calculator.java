@@ -12,7 +12,6 @@ public class Calculator {
         System.out.println("***********");
         System.out.println("enter your choice");
         int input = sc.nextInt();
-
         switch (input) {
                 case 1:
                     char ch;
