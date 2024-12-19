@@ -6,6 +6,7 @@ public class demoloop {
         System.out.println("Enter the value of x");
         Scanner sc = new Scanner(System.in);
         x = sc.nextInt();
+
         while(x<=10)
         {
             int y=5*x;
