@@ -18,6 +18,5 @@ public class BookMain {
        Book book2=new Book(title,author,price);*/
 
         book.DisplayDetails("Java", "James Gosling", 100.0);
-
-
-    }}
+    }
+}

@@ -13,9 +13,7 @@ public class BreakandContinue {
                 System.out.println("pragra");
                 continue;
             }
-                System.out.println(x);
-
-
+            System.out.println(x);
         }
     }
 }
