@@ -16,7 +16,7 @@ public class firstjavaclass {
         System.out.println(y);
         System.out.println(name);
         System.out.println(ch);
-
+        System.out.println("Hello world");
 
         /*
         data type
